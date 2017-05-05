@@ -12,29 +12,31 @@
     font-family: "Simplicity";
     src: url("fonts/simplicity.ttf");
 }
-strong {
-  font-size: 90px;
-}
-.rond {
-          display: flex;
-          width: 60%;
-          height: 650px;
-          margin: 7% auto auto auto;
-          border: 10px double white;
-          border-radius: 100%;
-      }
 
-      .rond p {
-          margin: auto;
-          font-family: "Mark my words";
-          color: white;
-          text-shadow: 1px 1px 2px black;
-          font-size: 70px;
-          text-align: center;
-      }
+strong {
+    font-size: 90px;
+}
 
 section {
     height: 800px;
+}
+
+.rond {
+    display: flex;
+    width: 60%;
+    height: 650px;
+    margin: 7% auto auto auto;
+    border: 10px double white;
+    border-radius: 100%;
+}
+
+.rond p {
+    margin: auto;
+    font-family: "Mark my words";
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 70px;
+    text-align: center;
 }
 
 .navbar {
@@ -61,13 +63,15 @@ section {
     background-color: #080808;
 }
 
-#home {
-    height: 800px;
+#home, #cv, #contact {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#about, #projects {
+    color: black;
 }
 
 .homeText {
@@ -85,24 +89,8 @@ section {
     font-size: 70px;
 }
 
-#about {
-    background-color: black;
-    color: white;
-}
 
-#about .container, #achat .container, #vente .container, #contact .container {
+
+#about .container, #cv .container, #projects .container, #contact .container {
     padding: 60px 0;
-}
-
-#achat {
-    background-image: url("img/bmw.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#vente {
-    background-color: #b40f02;
-    color: white;
 }
