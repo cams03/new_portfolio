@@ -39,28 +39,26 @@ section {
     text-align: center;
 }
 
-.navbar {
-    min-height: 70px;
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-shadow: 1px 1px 2px #7c5f51;
+  font-family: "Mark my words";
+  font-size: 20px;
 }
-
-.nav_header {
-    height: 70px;
+.navbar-default .navbar-nav>li>a:hover {
+  color: #7c5f51;
 }
-
-.navbar-nav li a {
-    line-height: 40px;
+.navbar-default .navbar-nav>.active>a {
+  color: white;
+  background-color: #dabd8b;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #7c5f51;
+  background-color: white;
 }
 
 .navbar-default {
     background-color: transparent;
-}
-
-.navbar-inverse .navbar-nav>.active>a {
-    background-color: #f60000;
-}
-
-.navbar-inverse .navbar-nav li a:hover {
-    background-color: #080808;
 }
 
 #home, #cv, #contact {
