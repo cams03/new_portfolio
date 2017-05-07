@@ -61,7 +61,7 @@ section {
     background-color: transparent;
 }
 
-#home, #cv, #contact {
+#home, #about, #cv, #contact {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -69,34 +69,51 @@ section {
     background-size: cover;
 }
 #about, #projects {
-    color: black;
+    color: #7c5f51;
 }
-
-.homeText {
-    margin-top: 20%;
-    opacity: .7;
-    color: white;
-    font-family: "evogria";
+#cv, #contact {
+  color: white;
 }
-
-.homeText h1 {
-    font-size: 100px;
+#about .container {
+  background-color: white;
+  font-family: "Simplicity";
+  font-size: 20px;
 }
-
-.homeText h2 {
-    font-size: 70px;
+#about h2, #cv h2 {
+  font-size: 40px;
+  font-family: "Mark my words";
+  text-shadow: 1px 1px 2px #7c5f51;
+  margin-bottom: 2%;
 }
 #about .container, #cv .container, #projects .container, #contact .container {
     padding: 60px 0;
 }
-.exp {
-    border: 2px solid black;
+.left_title {
+    border: 5px double white;
     border-radius: 100%;
-    text-align: center;
     height: 160px;
-    padding-top: 5%;
+    padding-top: 4.5%;
+    margin-left: 1.5%;
+    font-family: "Mark my words";
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #7c5f51;
 }
-
+.right_text {
+  font-family: "Simplicity";
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #7c5f51;
+  font-size: 22px;
+  padding-top: 2%;
+}
+.row_exp, .row_skills {
+  margin-top: 2%;
+}
+.row_skills .right_text {
+  padding-top: 4%;
+}
+.row_skills .right_text img {
+  margin-left: 2%;
+}
 
 @media screen and (max-width: 600px) {
   strong {
