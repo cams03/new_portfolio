@@ -86,9 +86,29 @@ section {
 .homeText h2 {
     font-size: 70px;
 }
-
-
-
 #about .container, #cv .container, #projects .container, #contact .container {
     padding: 60px 0;
+}
+.exp {
+    border: 2px solid black;
+    border-radius: 100%;
+    text-align: center;
+    height: 160px;
+    padding-top: 5%;
+}
+
+
+@media screen and (max-width: 600px) {
+  strong {
+    font-size: 60px;
+}
+  .rond {
+    width: 95%;
+    height: 400px;
+    margin: 20% auto auto auto;
+  }
+
+.rond p {
+    font-size: 40px;
+  }
 }
