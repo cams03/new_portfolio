@@ -71,6 +71,9 @@ section {
 #about, #projects {
     color: black;
 }
+#cv {
+  background-image: url("img/nature.jpg");
+}
 
 .homeText {
     margin-top: 20%;
