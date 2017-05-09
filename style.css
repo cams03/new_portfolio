@@ -98,6 +98,9 @@ section .container {
 #about h2 {
   padding-bottom: 5%;
 }
+#about p {
+  font-size: 25px;
+}
 #about .container .row {
   padding: 0 2% 0 2%;
 }
