@@ -18,7 +18,15 @@ strong {
 }
 
 section {
-    height: 800px;
+    height: 1000px;
+    padding-top: 5%;
+}
+section .container {
+  background-color: white;
+  font-family: "Simplicity";
+  font-size: 20px;
+  height: 70%;
+  opacity: 0.8;
 }
 
 .rond {
@@ -60,7 +68,8 @@ section {
 .navbar-default {
     background-color: transparent;
 }
-
+#home {padding-top: 0;}
+#home .container {background-color: transparent;}
 #home, #about, #cv, #contact, #projects {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
@@ -68,7 +77,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about, #projects, #contact {
+#about, #cv, #projects, #contact {
     color: #7c5f51;
 }
 #cv, #projects {
@@ -77,13 +86,8 @@ section {
 #contact {
   background-image: url("img/grass.jpeg");
 }
-#cv {
-  color: white;
-}
-#about .container {
-  background-color: white;
-  font-family: "Simplicity";
-  font-size: 20px;
+#cv .container, #projects .container {
+  height: 80%;
 }
 #about h2, #cv h2 {
   font-size: 40px;
@@ -91,8 +95,20 @@ section {
   text-shadow: 1px 1px 2px #7c5f51;
   margin-bottom: 2%;
 }
+#about h2 {
+  padding-bottom: 5%;
+}
+#about .container .row {
+  padding: 0 2% 0 2%;
+}
 #about .container, #cv .container, #projects .container, #contact .container {
-    padding: 60px 0;
+    padding: 20px 0;
+}
+#cv .container .row:nth-child(2), #cv .container .row:nth-child(3), #cv .container .row:last-child{
+  padding-left: 2%;
+}
+#cv .left_title {
+  border: 5px double #7c5f51;
 }
 .left_title {
     border: 5px double white;
