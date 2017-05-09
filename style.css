@@ -61,20 +61,23 @@ section {
     background-color: transparent;
 }
 
-#home, #about, #cv, #contact {
+#home, #about, #cv, #contact, #projects {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about, #projects {
+#about, #projects, #contact {
     color: #7c5f51;
 }
-#cv {
-  background-image: url("img/nature.jpg");
+#cv, #projects {
+  background-image: url("img/flowers.jpeg");
 }
-#cv, #contact {
+#contact {
+  background-image: url("img/grass.jpeg");
+}
+#cv {
   color: white;
 }
 #about .container {
