@@ -12,27 +12,28 @@
 <body data-spy="scroll" data-target=".navbar">
     <div id="navbar-top">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <div class="flags text-left">
-                        <a href="index.html" title="French"><img src="img/france-flag-3d-round-icon-16.png" alt=French></a>
-                        <a href="index-en.html" title="English"><img src="img/united-kingdom-flag-3d-round-icon-16.png" alt="English"></a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="navbar-header col-md-4">
+                        <div class="flags text-left">
+                            <a href="index.html" title="French"><img src="img/france-flag-3d-round-icon-16.png" alt=French></a>
+                            <a href="index-en.html" title="English"><img src="img/united-kingdom-flag-3d-round-icon-16.png" alt="English"></a>
+                        </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-center">
-                        <li class="active"> <a href="#home">Accueil</a> </li>
-                        <li> <a href="#about">A propos</a> </li>
-                        <li> <a href="#cv">CV</a> </li>
-                        <li> <a href="#projects">Projets</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
-                    </ul>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-center">
+                            <li class="active"> <a href="#home">Accueil</a> </li>
+                            <li> <a href="#about">A propos</a> </li>
+                            <li> <a href="#cv">CV</a> </li>
+                            <li> <a href="#projects">Projets</a> </li>
+                            <li> <a href="#contact">Contact</a> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -40,34 +41,98 @@
 
     <section id="home">
         <div class="container">
-            <div class="rond">
-                <p><strong class="name">Camille Francia</strong>
-                    <br> Développeuse Web</p>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="rond">
+                        <p><strong class="name">Camille Francia</strong>
+                        <br> Développeuse Web</p>
+                    </div>
+                </div>
             </div>
-
         </div>
     </section>
     <section id="about">
         <div class="container">
-            <div class="aboutText text-center">
-                <h2>A propos</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id vehicula nulla. Fusce at lobortis elit. Integer lorem purus, fringilla.</p>
+            <div class="row">
+                <h2 class="col-md-12 text-center">A propos</h2>
+                <p class="col-md-12 text-center">Actuellement à la recherche d'un emploi, je souhaite relever un nouveau challenge pour mettre à profit les compétences acquises dans le développement web lors de ma formation</p>
+                <p class="col-md-12 text-center">D'une formation initale en communication, j'ai décidé de m'attaquer au développement web après avoir travaillé plus de 3 ans dans la communication et les médias locaux en agence. Cette reconversion est pour moi un nouveau tournant dans ma vie et le moyen d'acquérir de nouvelles compétences et connaissances.</p>
             </div>
         </div>
     </section>
     <section id="cv">
         <div class="container">
-            <div class="cvText text-center">
-                <h2>CV</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id vehicula nulla. Fusce at lobortis elit. Integer lorem purus, fringilla.</p>
+            <div class="row">
+                <h2 class="col-md-12 text-center">CV</h2>
+                <div class="col-md-2 text-center left_title">Formation</div>
+                <div class="col-md-9 right_text">
+                    <ul class="ul_school">
+                        <li>2016/2017: Simplonmars - Apprentissage de la programmation et du développement web.
+                        </li>
+                        <li>2010 à 2012: Master I Stratégie de communication - Publicité, évènementiel, marketing.
+                        </li>
+                        <li>2008 à 2010: BTS commerce International - Marketing, négociation, prospection, import- export.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row_exp">
+                <div class="col-md-2 text-center left_title">Expérience</div>
+                <div class="col-md-9 right_text">
+                    <ul class="ul_exp">
+                        <li>2013 à 2016: Foule Access - Chargée de budget. Elaboration de recommandations stratégiques & médiaplannings, gestion de budget & d'un portefeuille clients.
+                            <br>Ex de clients: Groupe Casino, Subway, Toys'R'Us, Go Sport, Groupe Bongrain...
+                        </li>
+                        <li>2011 à 2012: Havas Media - Chargée de budget. Mise en place de campagnes pluri-media multi-locales.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row_skills">
+                <div class="col-md-2 text-center left_title">Compétences</div>
+                <div class="col-md-9 right_text">
+                    <img src="img/html5.svg" alt="HTML5" width="80" height="80" title="HTML5">
+                    <img src="img/css3.svg" alt="CSS3" width="80" height="80" title="CSS3">
+                    <img src="img/javascript.svg" alt="Javascript" width="80" height="80" title="Javascript">
+                    <img src="img/jquery.svg" alt="JQuery" width="80" height="80" title="JQuery">
+                    <img src="img/bootstrap.svg" alt="Bootstrap" width="80" height="80" title="Bootstrap">
+                    <img src="img/wordpress.svg" alt="JQuery" width="80" height="80" title="Wordpress">
+                    <img src="img/github.svg" alt="Github" width="80" height="80" title="Github">
+                </div>
             </div>
         </div>
     </section>
     <section id="projects">
-        <div class="container">
-            <div class="projectText text-center">
-                <h2>Projets</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id vehicula nulla. Fusce at lobortis elit. Integer lorem purus, fringilla.</p>
+           <div class="container">
+            <div class="row">
+                <h2 class="col-md-12 text-center">Projets</h2>
+                <div class="col-md-2 text-center left_title">Planet vs Rocket</div>
+                <div class="col-md-9 right_text">
+                    <p>Ce jeu consiste à réaliser une "expérience graphique" interactive basée sur le mouvement de la souris.
+                        <br> Technologies utilisées : HTML5, CSS3 & JavaScript.
+                    </p>
+                </div>
+            </div>
+            <div class="row row_exp">
+                <div class="col-md-2 text-center left_title">Expérience</div>
+                <div class="col-md-9 right_text">
+                    <ul class="ul_exp">
+                        <li>2013 à 2016: Foule Access - Chargée de budget. Elaboration de recommandations stratégiques & médiaplannings, gestion de budget & d'un portefeuille clients.
+                            <br>Ex de clients: Groupe Casino, Subway, Toys'R'Us, Go Sport, Groupe Bongrain...
+                        </li>
+                        <li>2011 à 2012: Havas Media - Chargée de budget. Mise en place de campagnes pluri-media multi-locales.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row_skills">
+                <div class="col-md-2 text-center left_title">Compétences</div>
+                <div class="col-md-9 right_text">
+                    <img src="img/html5.svg" alt="HTML5" width="80" height="80" title="HTML5">
+                    <img src="img/css3.svg" alt="CSS3" width="80" height="80" title="CSS3">
+                    <img src="img/javascript.svg" alt="Javascript" width="80" height="80" title="Javascript">
+                    <img src="img/jquery.svg" alt="JQuery" width="80" height="80" title="JQuery">
+                    <img src="img/bootstrap.svg" alt="Bootstrap" width="80" height="80" title="Bootstrap">
+                    <img src="img/wordpress.svg" alt="JQuery" width="80" height="80" title="Wordpress">
+                    <img src="img/github.svg" alt="Github" width="80" height="80" title="Github">
+                </div>
             </div>
         </div>
     </section>
