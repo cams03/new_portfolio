@@ -36,6 +36,7 @@ section .container, section .container-fluid {
     height: 85%;
     border: 10px double white;
     padding-top: 13%;
+    margin-top: 3%
 }
 
 #home .container-fluid .row div p {
@@ -45,28 +46,6 @@ section .container, section .container-fluid {
     text-shadow: 1px 1px 2px black;
     font-size: 70px;
     text-align: center;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
-  text-shadow: 1px 1px 2px #7c5f51;
-  font-family: "Mark my words";
-  font-size: 20px;
-}
-.navbar-default .navbar-nav>li>a:hover {
-  color: #7c5f51;
-}
-.navbar-default .navbar-nav>.active>a {
-  color: white;
-  background-color: #dabd8b;
-}
-.navbar-default .navbar-nav>.active>a:hover {
-  color: #7c5f51;
-  background-color: white;
-}
-
-.navbar-default {
-    background-color: transparent;
 }
 #home {padding-top: 0;}
 #home .container-fluid {background-color: transparent;}
@@ -113,6 +92,28 @@ section .container, section .container-fluid {
 #cv .left_title, #projects .left_title {
   border: 5px double #7c5f51;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-shadow: 1px 1px 2px #7c5f51;
+  font-family: "Mark my words";
+  font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #7c5f51;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: white;
+  background-color: #dabd8b;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #7c5f51;
+  background-color: white;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
 .left_title {
     border: 5px double white;
     border-radius: 100%;
@@ -148,6 +149,10 @@ section .container, section .container-fluid {
   }
 }
 @media screen and (max-width:990px) {
+  #home .container-fluid .row div {
+    padding-top: 18%;
+    margin-top: 7%;
+  }
   .ul_school, .ul_exp {
     font-size: 20px;
   }
