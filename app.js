@@ -10,8 +10,8 @@ $(function () {
   });
 
   $(document).ready(function() {
-   $('.information_menu').find('li').hover(function(e) {
-      $('.information_menu').find('li').removeClass('active');
+   $('.left-side_menu').find('li').hover(function(e) {
+      $('.left-side_menu').find('li').removeClass('active');
        $(this).addClass('active');
        $(".overlay-item").removeClass("active");
        $(".overlay-item").removeClass("inactive");
@@ -22,7 +22,7 @@ $(function () {
 
    $('.slideshow').children().on('mouseleave',function(e) {
    $(this).removeClass("active");
- });
+   });
 
    $('.carousel').carousel();
   });

@@ -2,21 +2,15 @@
     font-family: "Mark my words";
     src: url("fonts/mark_my_words.ttf");
 }
-
 @font-face {
     font-family: "Always";
     src: url("fonts/always_forever_bold.ttf");
 }
-
 @font-face {
     font-family: "Simplicity";
     src: url("fonts/simplicity.ttf");
 }
-
-strong {
-    font-size: 90px;
-}
-
+strong {font-size: 90px;}
 section {
     height: 1000px;
     padding-top: 5%;
@@ -38,7 +32,6 @@ section .container, section .container-fluid {
     padding-top: 13%;
     margin-top: 3%
 }
-
 #home .container-fluid .row div p {
     margin: auto;
     font-family: "Mark my words";
@@ -56,60 +49,36 @@ section .container, section .container-fluid {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about, #cv, #projects, #contact {
-    color: #7c5f51;
-}
-#cv, #projects {
-  background-image: url("img/flowers.jpeg");
-}
-#contact {
-  background-image: url("img/grass.jpeg");
-}
-#cv .container, #projects .container {
-  height: 80%;
-}
+#about, #cv, #projects, #contact {color: #7c5f51;}
+#cv, #projects {background-image: url("img/flowers.jpeg");}
+#contact {background-image: url("img/grass.jpeg");}
+#cv .container, #projects .container {height: 80%;}
 #about h2, #cv h2, #projects h2 {
   font-size: 40px;
   font-family: "Mark my words";
   text-shadow: 1px 1px 2px #7c5f51;
   margin-bottom: 2%;
 }
-#about h2 {
-  padding-bottom: 5%;
-}
-#about p {
-  font-size: 25px;
-}
-#about .container .row {
-  padding: 0 2% 0 2%;
-}
-#about .container {
-  height: 55%;
-}
+#about h2 {padding-bottom: 5%;}
+#about p {font-size: 25px;}
+#about .container .row {padding: 0 2% 0 2%;}
+#about .container {height: 55%;}
 #about .container, #cv .container, #projects .container, #contact .container {
     padding: 20px 0;
 }
 #cv .container .row:nth-child(2), #cv .container .row:nth-child(3), #cv .container .row:last-child{
   padding-left: 2%;
 }
-#cv .left_title, #projects .left_title {
-  border: 5px double #7c5f51;
-}
-#projects .container {
-  height: 60%;
-}
-#projects .container .row:first-child {
-  margin-top: 5%;
-}
+#cv .left_title, #projects .left_title {border: 5px double #7c5f51;}
+#projects .container {height: 60%;}
+#projects .container .row:first-child {margin-top: 5%;}
 .navbar-default .navbar-nav>li>a {
   color: white;
   text-shadow: 1px 1px 2px #7c5f51;
   font-family: "Mark my words";
   font-size: 20px;
 }
-.navbar-default .navbar-nav>li>a:hover {
-  color: #7c5f51;
-}
+.navbar-default .navbar-nav>li>a:hover {color: #7c5f51;}
 .navbar-default .navbar-nav>.active>a {
   color: white;
   background-color: #dabd8b;
@@ -118,10 +87,7 @@ section .container, section .container-fluid {
   color: #7c5f51;
   background-color: white;
 }
-
-.navbar-default {
-    background-color: transparent;
-}
+.navbar-default {background-color: transparent;}
 .left_title {
     border: 5px double white;
     border-radius: 100%;
@@ -139,42 +105,30 @@ section .container, section .container-fluid {
   font-size: 22px;
   padding-top: 2%;
 }
-.row_exp, .row_skills {
-  margin-top: 2%;
-}
-.row_skills .right_text {
-  padding-top: 4.5%;
-}
-.row_skills .right_text img {
-  margin-left: 2%;
-}
+.row_exp, .row_skills {margin-top: 2%;}
+.row_skills .right_text {padding-top: 4.5%;}
+.row_skills .right_text img {margin-left: 2%;}
+
 /*----------------SLIDESHOW---------------*/
 
-.nopaddingleft {
+#projects .container .row [class*="col-"]{
     padding-left: 0;
-}
-.nopaddingright {
     padding-right: 0;
 }
-.overflownone {
-    overflow: hidden!important;
-}
-.information {
+.left-side {
     background: #7c5f51;
     position: relative;
     height: 400px;
 }
-.information h3 {
+.left-side h3 {
   font-size: 40px;
   font-family: "Mark my words";
   text-shadow: 1px 1px 2px white;
   padding: 0 15px;
   color: white;
 }
-.information .information_menu {
-    padding: 0;
-}
-.information .information_menu li {
+.left-side .left-side_menu {padding: 0;}
+.left-side .left-side_menu li {
     list-style: none;
     position: relative;
     color: #FFF;
@@ -184,11 +138,11 @@ section .container, section .container-fluid {
     font-size: 20px;
     text-decoration: none;
 }
-.information .information_menu li.active {
+.left-side .left-side_menu li.active {
     background: white;
     color: #7c5f51;
 }
-.information .information_menu li.active:after {
+.left-side .left-side_menu li.active:after {
     content: "";
     width: 0;
     height: 0;
@@ -201,7 +155,7 @@ section .container, section .container-fluid {
     top: 0;
     padding-bottom: 6px;
 }
-.information .information_menu li a {
+.left-side .left-side_menu li a {
     color: #FFF;
     display: block;
     padding: 16px 20px;
@@ -209,32 +163,7 @@ section .container, section .container-fluid {
     font-size: 1.5rem;
     text-decoration: none;
 }
-.information .btn-emergency {
-    background: #f89406;
-    border: none;
-    margin: 20px;
-    display: block;
-    width: 88%;
-    color: #fff;
-    text-shadow: none;
-    padding: 0;
-    font-size: 20px;
-    font-size: 2rem;
-}
-.information .btn-emergency span {
-    padding: 15px;
-    display: block;
-    background-size: 30px 30px;
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.25, rgba(255, 255, 255, .15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, .15)), color-stop(0.75, rgba(255, 255, 255, .15)), color-stop(0.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: linear, 135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent;
-    -webkit-animation: animate-stripes 3s linear infinite;
-    -moz-animation: animate-stripes 3s linear infinite;
-}
-.mobile-menu-bg {
-    background: #2a3d46;
-}
+.mobile-menu-bg {background: #2a3d46;}
 .information_menu_mobile {
     margin: 0px;
     padding: 0;
@@ -304,9 +233,7 @@ section .container, section .container-fluid {
     border: 1px dotted #7c5f51;
     border-radius: 5%;
 }
-.slideshow .overlay-item .quickmenu a:hover {
-  transform: scale(1.5);
-}
+.slideshow .overlay-item .quickmenu a:hover {transform: scale(1.5);}
 #slider {
     padding: 0px;
     margin: 0px
@@ -316,9 +243,7 @@ section .container, section .container-fluid {
     list-style: none;
     position: absolute;
 }
-#carousel {
-    height: 400px
-}
+#carousel {height: 400px}
 .carousel-fade .carousel-inner .item {
     transition-property: opacity;
 }
