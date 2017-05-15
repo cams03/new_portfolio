@@ -351,13 +351,12 @@ footer {
   strong {
     font-size: 60px;
 }
-  .rond {
-    width: 95%;
+  #home .container .row div {
     height: 400px;
     margin: 20% auto auto auto;
   }
 
-.rond p {
+#home .container .row div p {
     font-size: 40px;
   }
 }
