@@ -350,7 +350,7 @@ footer {
 @media screen and (max-width: 600px) {
   #home .container, #about .container, #cv .container, #projects .container, #contact .container { height: auto;}
   #about .container {height: 700px;}
-  #about .container p {text-align: justify;}
+  #about .container .row p {text-align: justify;}
   strong {
     font-size: 60px;
 }
