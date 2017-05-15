@@ -348,27 +348,36 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
+  strong {font-size: 60px;}
   #home .container, #about .container, #cv .container, #projects .container, #contact .container { height: auto;}
   #about .container {height: 700px;}
   #about .container .row p {text-align: justify;}
-  strong {
-    font-size: 60px;
-}
   #home .container .row div {
-    height: 400px;
+    height: 350px;
     margin: 20% auto auto auto;
+    padding-top: 30%;
   }
 
 #home .container .row div p {
     font-size: 40px;
   }
+  .left_title {
+    height: 100px;
+    padding-top: 5%;
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 400px) {
-  strong {
-    font-size: 50px;
+  strong {font-size: 50px;}
+  section{height: auto;}
+  #home {height: 700px;}
+  #about {height: 800px;}
+  #home .container .row div p {font-size: 30px;}
+  #about .container .row p {text-align: justify; font-size: 23px;}
+  #about
+  .left_title {
+    height: 100px;
+    padding-top: 5%;
+    font-size: 25px;
   }
-  #about .container .row p {text-align: justify;}
-  #home .container .row div p {
-      font-size: 30px;
-    }
 }
