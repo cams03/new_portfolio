@@ -10,38 +10,38 @@
     font-family: "Simplicity";
     src: url("fonts/simplicity.ttf");
 }
-strong {font-size: 90px;}
+strong {font-size: 85px;}
 section {
-    height: 1000px;
+    height: 900px;
     padding-top: 5%;
 }
-section .container, section .container-fluid {
+section .container, section .container {
   background-color: white;
   font-family: "Simplicity";
   font-size: 20px;
   height: 70%;
   opacity: 0.8;
 }
-#home .container-fluid .row {
+#home .container .row {
   height: 100%;
   margin-top: 5%;
 }
-#home .container-fluid .row div {
+#home .container .row div {
     height: 85%;
     border: 10px double white;
     padding-top: 13%;
     margin-top: 3%
 }
-#home .container-fluid .row div p {
+#home .container .row div p {
     margin: auto;
     font-family: "Mark my words";
     color: white;
     text-shadow: 1px 1px 2px black;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
 }
 #home {padding-top: 0;}
-#home .container-fluid {background-color: transparent;}
+#home .container {background-color: transparent;}
 #home, #about, #cv, #contact, #projects {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
