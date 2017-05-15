@@ -367,6 +367,7 @@ footer {
   strong {
     font-size: 50px;
   }
+  #about .container p {text-align: justify;}
   #home .container .row div p {
       font-size: 30px;
     }
