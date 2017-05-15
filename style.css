@@ -92,7 +92,9 @@ section .container, section .container-fluid {
 #cv .left_title, #projects .left_title {
   border: 5px double #7c5f51;
 }
-
+#projects .container .row:first-child {
+  margin-top: 5%;
+}
 .navbar-default .navbar-nav>li>a {
   color: white;
   text-shadow: 1px 1px 2px #7c5f51;
@@ -142,11 +144,6 @@ section .container, section .container-fluid {
 }
 /*----------------SLIDESHOW---------------*/
 
-h3 {
-    font-size: 24px;
-    font-size: 24px;
-    font-size: 2.4rem;
-}
 .nopaddingleft {
     padding-left: 0;
 }
@@ -164,7 +161,7 @@ h3 {
 .information h3 {
   font-size: 40px;
   font-family: "Mark my words";
-  text-shadow: 1px 1px 2px #7c5f51;
+  text-shadow: 1px 1px 2px white;
   padding: 0 15px;
   color: white;
 }
@@ -175,14 +172,15 @@ h3 {
     list-style: none;
     position: relative;
     color: #FFF;
+    font-weight: bold;
     display: block;
     padding: 16px 20px;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 20px;
     text-decoration: none;
 }
 .information .information_menu li.active {
-    background: #0383c5;
+    background: white;
+    color: #7c5f51;
 }
 .information .information_menu li.active:after {
     content: "";
@@ -190,11 +188,12 @@ h3 {
     height: 0;
     border-top: 27px solid transparent;
     border-bottom: 27px solid transparent;
-    border-left: 22px solid #0383c5;
+    border-left: 22px solid white;
     position: absolute;
     right: -22px;
     z-index: 1000;
     top: 0;
+    padding-bottom: 6px;
 }
 .information .information_menu li a {
     color: #FFF;
@@ -259,7 +258,7 @@ h3 {
     top: 0;
     z-index: 999;
     width: 360px;
-    background: rgba(248, 148, 6, 0.67);
+    background: rgba(218, 189, 139, 0.9);
     height: 400px;
     padding: 10px 30px;
     display: none;
@@ -281,14 +280,26 @@ h3 {
 }
 .slideshow .overlay-item .quickmenu  {
     padding: 0;
-    color: white;
+    margin-bottom: 5%;
+    color: #7c5f51;
+    font-weight: bold;
+    font-size: 22px;
+}
+.slideshow .overlay-item .quickmenu h3 {
+  font-weight: bold;
+  font-size: 25px;
 }
 .slideshow .overlay-item .quickmenu a {
-    color: #FFF;
-    display: block;
-    padding: 8px 20px;
-    font-size: 15px;
+    color: #7c5f51;
+    font-weight: bold;
+    padding: 2%;
+    font-size: 23px;
     text-decoration: none;
+    border: 1px dotted #7c5f51;
+    border-radius: 5%;
+}
+.slideshow .overlay-item .quickmenu a:hover {
+  transform: scale(1.5);
 }
 #slider {
     padding: 0px;
@@ -299,7 +310,7 @@ h3 {
     list-style: none;
     position: absolute;
 }
-#carousel-example-generic {
+#carousel {
     height: 400px
 }
 .carousel-fade .carousel-inner .item {
@@ -331,6 +342,11 @@ h3 {
 .carousel-inner .item {
     height: 100%;
 }
+.carousel-inner .item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .item:nth-child(1) {
     background-image: url("img/leravi.jpg");
 }
@@ -338,9 +354,19 @@ h3 {
     background-image: url("img/espace.jpg");
 }
 .item:nth-child(3) {
-    background: #E46653;
+    background-image: url("img/rl_auto.jpg");
 }
-
+.item:last-child {
+  background-image: url("img/ble_small.jpg");
+}
+.carousel-caption, .carousel-caption h3 {
+  color: #301c09;
+  font-weight: bold;
+}
+.carousel-inner .item:nth-child(2) .carousel-caption, .carousel-inner .item:nth-child(2) .carousel-caption h3{
+  color: white;
+}
+.carousel-indicators li {border-color: #301c09;}
 @media screen and (max-width:1200px) {
   .row_skills .left_title {
     padding-left: 0.2%;
