@@ -83,6 +83,9 @@ section .container, section .container-fluid {
 #about .container .row {
   padding: 0 2% 0 2%;
 }
+#about .container {
+  height: 55%;
+}
 #about .container, #cv .container, #projects .container, #contact .container {
     padding: 20px 0;
 }
@@ -91,6 +94,9 @@ section .container, section .container-fluid {
 }
 #cv .left_title, #projects .left_title {
   border: 5px double #7c5f51;
+}
+#projects .container {
+  height: 60%;
 }
 #projects .container .row:first-child {
   margin-top: 5%;
