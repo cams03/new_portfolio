@@ -70,7 +70,7 @@ section .container, section .container {
   padding-left: 2%;
 }
 #cv .left_title, #projects .left_title {border: 5px double #7c5f51;}
-#projects .container {height: 60%;}
+#projects .container {height: 65%;}
 #projects .container .row:first-child {margin-top: 5%;}
 .navbar-default .navbar-nav>li>a {
   color: white;
@@ -164,24 +164,24 @@ section .container, section .container {
     text-decoration: none;
 }
 .mobile-menu-bg {background: #2a3d46;}
-.information_menu_mobile {
+.menu_mobile {
     margin: 0px;
     padding: 0;
 }
-.information_menu_mobile li {
+.menu_mobile li {
     padding: 0;
     float: left;
     width: 25%;
     list-style: none;
     text-align: center;
 }
-.information_menu_mobile li a {
+.menu_mobile li a {
     display: block;
     padding: 10px;
     color: #FFF;
     text-decaration: none;
 }
-.information_menu_mobile li:hover a {
+.menu_mobile li:hover a {
     background: #0383c5;
     text-decaration: none;
 }
