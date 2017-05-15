@@ -348,6 +348,7 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
+  #home .container, #about .container, #cv .container, #projects .container, #contact .container { height: auto;}
   strong {
     font-size: 60px;
 }
