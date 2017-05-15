@@ -22,6 +22,12 @@ section .container, section .container {
   height: 70%;
   opacity: 0.8;
 }
+footer {
+  font-family: "Simplicity";
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
 #home .container .row {
   height: 100%;
   margin-top: 5%;
@@ -42,7 +48,7 @@ section .container, section .container {
 }
 #home {padding-top: 0;}
 #home .container {background-color: transparent;}
-#home, #about, #cv, #contact, #projects {
+#home, #about, #cv, #contact, #projects, footer {
     background-image: url("img/ble2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -51,8 +57,8 @@ section .container, section .container {
 }
 #about, #cv, #projects, #contact {color: #7c5f51;}
 #cv, #projects {background-image: url("img/flowers.jpeg");}
-#contact {background-image: url("img/grass.jpeg");}
-#cv .container, #projects .container {height: 80%;}
+#contact, footer {background-image: url("img/grass.jpeg");}
+#cv .container, #projects .container {height: 85%;}
 #about h2, #cv h2, #projects h2 {
   font-size: 40px;
   font-family: "Mark my words";
@@ -154,14 +160,6 @@ section .container, section .container {
     z-index: 1000;
     top: 0;
     padding-bottom: 6px;
-}
-.left-side .left-side_menu li a {
-    color: #FFF;
-    display: block;
-    padding: 16px 20px;
-    font-size: 15px;
-    font-size: 1.5rem;
-    text-decoration: none;
 }
 .mobile-menu-bg {background: #7c5f51;}
 .menu_mobile {
@@ -333,7 +331,7 @@ section .container, section .container {
   }
 }
 @media screen and (max-width:990px) {
-  #home .container-fluid .row div {
+  #home .container .row div {
     padding-top: 18%;
     margin-top: 7%;
   }
