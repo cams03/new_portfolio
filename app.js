@@ -26,5 +26,7 @@ $(function () {
 
    $('.carousel').carousel();
   });
-
+  $("#submit").on("click", function(){
+    $("#submit").removeClass("btn-primary").addClass("btn-success");
+  })
 });

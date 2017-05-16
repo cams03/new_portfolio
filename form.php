@@ -13,6 +13,7 @@ if (mail($destinataire, $objet, $message, $headers)) // Envoi du message
 {
     echo 'Votre message a bien été envoyé ';
     echo $retour;
+    header('Location: index.html#contact');
 }
 else // Non envoyé
 {
