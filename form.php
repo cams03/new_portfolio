@@ -11,12 +11,11 @@ $message = '<div style="width: 100%;">'.$_POST['message'].'</div>';
 $retour = '<br><a href="http://camillefrancia.com/index.html" style="text-decoration:none;"><button style="padding:5px; font-family:sans-serif; font-size:15px; margin-top:10px; cursor:pointer;">Retour</button></a>';
 if (mail($destinataire, $objet, $message, $headers)) // Envoi du message
 {
-    echo 'Votre message a bien été envoyé ';
-    echo $retour;
     header('Location: index.html#contact');
 }
 else // Non envoyé
 {
     echo "Votre message n'a pas pu être envoyé";
+    echo $retour;
 }
 ?>
