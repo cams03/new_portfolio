@@ -449,6 +449,12 @@ footer {
     transform: scale(1.1);
 }
 
+.php-btn {
+  padding: 5%;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
 @-webkit-keyframes opendoor {
     from {
         -webkit-transform: perspective(1000px) rotateY(90deg);
