@@ -26,6 +26,7 @@ legend {
   color: #7c5f51;
   font-weight: bold;
 }
+input {font-size: 20px; font-weight: bold;}
 span.glyphicon {margin-right: 7%;}
 footer {
   font-family: "Simplicity";

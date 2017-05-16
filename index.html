@@ -216,7 +216,7 @@
         <div class="container">
             <h2 class="text-center">Contact</h2>
             <div class="row">
-              <form class="col-lg-offset-1 col-lg-5 well">
+              <form class="col-lg-offset-1 col-lg-5 well" method="post" action="form.php">
 
                     <!-- Form Name -->
                     <legend>Me contacter par message</legend>
@@ -231,14 +231,14 @@
                     <div class="form-group">
                         <label class="control-label" for="objet">Objet :</label>
                         <div>
-                            <input id="objet" name="objet" type="text" placeholder="" class="form-control input-md" required="">
+                            <input id="objet" name="subject" type="text" placeholder="" class="form-control input-md" required="">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="control-label" for="textarea">Message :</label>
                         <div>
-                            <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                            <textarea class="form-control" id="textarea" name="message"></textarea>
                         </div>
                     </div>
                     <!-- Button -->
