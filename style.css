@@ -82,7 +82,7 @@ footer {
   padding-left: 2%;
 }
 #cv .left_title, #projects .left_title {border: 5px double #7c5f51;}
-#projects .container {height: 65%;}
+#projects .container {height: 65%; opacity: 0.9;}
 #projects .container .row:first-child, #contact .container .row {margin-top: 5%;}
 #contact .container {
   background-color: transparent;
