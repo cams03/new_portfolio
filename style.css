@@ -15,7 +15,7 @@ section {
     height: 900px;
     padding-top: 5%;
 }
-section .container, section .container {
+section .container {
   background-color: white;
   font-family: "Simplicity";
   font-size: 20px;
@@ -84,6 +84,11 @@ footer {
 #cv .left_title, #projects .left_title {border: 5px double #7c5f51;}
 #projects .container {height: 65%;}
 #projects .container .row:first-child, #contact .container .row {margin-top: 5%;}
+#contact .container {
+  background-color: transparent;
+  opacity: 1;
+}
+#contact h2 {color: white; text-shadow: 1px 1px 2px #7c5f51}
 #submit {padding: 2%;}
 .download {margin-top: 1.7%;}
 .download:hover {transform: scale(1.1);}
