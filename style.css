@@ -328,6 +328,8 @@ footer {
 }
 
 @media screen and (max-width:1200px) {
+  #cv {height: 1100px;}
+  #cv .container {height: 85%;}
   .row_skills .left_title {
     padding-left: 0.2%;
   }
@@ -340,32 +342,35 @@ footer {
     padding-top: 18%;
     margin-top: 7%;
   }
+  #cv .left_title {
+    padding: 7% 0 0 0;
+  }
+  #projects .container .row:first-child {margin-top: 0;}
   .ul_school, .ul_exp {
     font-size: 20px;
   }
+  #contact form:nth-child(2) {margin-left: 2%;}
   .row_skills img {
     width: 50px;
     height: 50px;
     margin-top: 5%;
   }
-  #cv .left_title {
-    padding: 7% 0 0 0;
-  }
+  .download a {font-size: 10px;}
+}
+@media screen and (max-width: 768px) {
+  .navbar-default {background-color: #7c5f51;}
 }
 @media screen and (max-width: 600px) {
-  strong {font-size: 60px;}
+  strong {font-size: 55px;}
   #home .container, #about .container, #cv .container, #projects .container, #contact .container { height: auto;}
   #about .container {height: 700px;}
   #about .container .row p {text-align: justify;}
   #home .container .row div {
     height: 350px;
-    margin: 20% auto auto auto;
+    margin-top: 20%;
     padding-top: 30%;
   }
-
-#home .container .row div p {
-    font-size: 40px;
-  }
+  #home .container .row div p {font-size: 40px;}
   .left_title {
     height: 100px;
     padding-top: 5%;
@@ -377,6 +382,7 @@ footer {
   section{height: auto;}
   #home {height: 700px;}
   #about {height: 800px;}
+  #cv {height: auto;}
   #home .container .row div p {font-size: 30px;}
   #about .container .row p {text-align: justify; font-size: 23px;}
   #about
@@ -385,4 +391,5 @@ footer {
     padding-top: 5%;
     font-size: 25px;
   }
+  .download {margin-top: 5%;}
 }
