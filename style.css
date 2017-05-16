@@ -58,8 +58,8 @@ footer {
 #about, #cv, #projects, #contact {color: #7c5f51;}
 #cv, #projects {background-image: url("img/flowers.jpeg");}
 #contact, footer {background-image: url("img/grass.jpeg");}
-#cv .container, #projects .container {height: 85%;}
-#about h2, #cv h2, #projects h2 {
+#cv .container, #projects .container, #contact .container {height: 85%;}
+#about h2, #cv h2, #projects h2, #contact h2 {
   font-size: 40px;
   font-family: "Mark my words";
   text-shadow: 1px 1px 2px #7c5f51;
@@ -77,7 +77,7 @@ footer {
 }
 #cv .left_title, #projects .left_title {border: 5px double #7c5f51;}
 #projects .container {height: 65%;}
-#projects .container .row:first-child {margin-top: 5%;}
+#projects .container .row:first-child, #contact .container .row {margin-top: 5%;}
 .navbar-default .navbar-nav>li>a {
   color: white;
   text-shadow: 1px 1px 2px #7c5f51;
