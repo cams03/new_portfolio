@@ -38,7 +38,7 @@ input {
     font-size: 20px;
     font-weight: bold;
 }
-
+textarea {font-family: sans-serif;}
 span.glyphicon {
     margin-right: 7%;
 }
