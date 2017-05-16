@@ -22,6 +22,9 @@ section .container, section .container {
   height: 70%;
   opacity: 0.8;
 }
+legend {
+  color: #7c5f51;
+}
 footer {
   font-family: "Simplicity";
   color: white;
@@ -222,16 +225,7 @@ footer {
   font-weight: bold;
   font-size: 27px;
 }
-.slideshow .overlay-item .quickmenu a {
-    color: #7c5f51;
-    font-weight: bold;
-    padding: 2%;
-    font-size: 23px;
-    text-decoration: none;
-    border: 1px dotted #7c5f51;
-    border-radius: 5%;
-}
-.slideshow .overlay-item .quickmenu a:hover {transform: scale(1.2);}
+.access:hover {transform: scale(1.2);}
 #slider {
     padding: 0px;
     margin: 0px
@@ -300,7 +294,7 @@ footer {
   color: white;
 }
 .carousel-indicators li {border-color: #301c09;}
-
+.online_icon:hover {transform: scale(1.1);}
 @-webkit-keyframes opendoor {
     from {
         -webkit-transform: perspective(1000px) rotateY(90deg);
