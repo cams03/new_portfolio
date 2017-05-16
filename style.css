@@ -24,6 +24,7 @@ section .container, section .container {
 }
 legend {
   color: #7c5f51;
+  font-weight: bold;
 }
 span.glyphicon {margin-right: 7%;}
 footer {
@@ -83,6 +84,13 @@ footer {
 #projects .container {height: 65%;}
 #projects .container .row:first-child, #contact .container .row {margin-top: 5%;}
 #submit {padding: 2%;}
+.download {margin-top: 1.7%;}
+.download:hover {transform: scale(1.1);}
+.download a {
+  text-decoration: none;
+  color: #7c5f51;
+  font-weight: bold;
+}
 .navbar-default .navbar-nav>li>a {
   color: white;
   text-shadow: 1px 1px 2px #7c5f51;
