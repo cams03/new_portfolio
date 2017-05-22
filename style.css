@@ -526,6 +526,9 @@ footer {
     .navbar-default {
         background-color: #7c5f51;
     }
+    section .container {
+        margin-top: 10%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -563,17 +566,15 @@ footer {
     section {
         height: auto;
     }
+
     #home {
         height: 700px;
     }
-    #about {
-        height: 800px;
-    }
-    #cv {
-        height: auto;
-    }
     #home .container .row div p {
         font-size: 30px;
+    }
+    #about {
+        height: 800px;
     }
     #about .container .row p {
         text-align: justify;
@@ -584,6 +585,10 @@ footer {
         padding-top: 5%;
         font-size: 25px;
     }
+    #cv {
+        height: auto;
+    }
+
     .download {
         margin-top: 5%;
     }
