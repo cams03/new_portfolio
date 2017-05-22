@@ -29,4 +29,7 @@ $(function () {
   $("form").on("submit", function(){
     $("#submit").removeClass("btn-primary").addClass("btn-success");
   })
+  $('#submit').click(function() {
+  $('.modal').modal('show');
+  });
 });
