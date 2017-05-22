@@ -174,7 +174,6 @@ footer {
     color: #7c5f51;
     font-weight: bold;
 }
-
 .navbar-default .navbar-nav>li>a {
     color: white;
     text-shadow: 1px 1px 2px #7c5f51;
@@ -544,7 +543,7 @@ footer {
     #home .container .row div {
         height: 350px;
         margin-top: 20%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
     #home .container .row div p {
         font-size: 40px;
