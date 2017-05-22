@@ -566,7 +566,12 @@ footer {
     section {
         height: auto;
     }
-
+    #contact .container {
+        opacity: 0.8;
+    }
+    #contact .container h2 {
+      color:#7c5f51;
+    }
     #home {
         height: 700px;
     }
