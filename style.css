@@ -24,7 +24,6 @@ section .container {
     background-color: white;
     font-family: "Simplicity";
     font-size: 20px;
-    height: 70%;
     opacity: 0.8;
 }
 
@@ -56,19 +55,19 @@ footer {
 }
 
 #home .container .row div {
-    height: 85%;
     border: 10px double white;
-    padding-top: 13%;
-    margin-top: 3%
-}
-
-#home .container .row div p {
-    margin: auto;
+    padding:150px 0;
+    max-height: 550px;
+    margin: 3% auto 0;
     font-family: "Mark my words";
     color: white;
     text-shadow: 1px 1px 2px black;
     font-size: 60px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #home {
@@ -97,10 +96,6 @@ footer {
 
 #contact, footer {
     background-image: url("img/field.jpg");
-}
-
-#cv .container, #projects .container, #contact .container {
-    height: 85%;
 }
 
 #about h2, #cv h2, #projects h2, #contact h2 {
@@ -481,9 +476,6 @@ footer {
     #cv {
         height: 1100px;
     }
-    #cv .container {
-        height: 85%;
-    }
     .row_skills .left_title {
         padding-left: 0.2%;
     }
@@ -497,7 +489,6 @@ footer {
         background-attachment: scroll;
     }
     #home .container .row div {
-        padding-top: 18%;
         margin-top: 7%;
     }
     #cv .left_title {
@@ -545,9 +536,8 @@ footer {
         text-align: justify;
     }
     #home .container .row div {
-        height: 350px;
         margin-top: 20%;
-        padding-top: 20%;
+        padding: 95px 0;
     }
     #home .container .row div p {
         font-size: 40px;
